@@ -2,10 +2,10 @@
 
 fn main() {
 
-let mut sum = 0;
+let mut sum = 0; // declare a mutable variable to hold the sum
 
- for x in 1..11 { 
-   sum = sum + x;
+ for x in 1..11 { // iterate from 1 to 10
+   sum = sum + x;   // add each number to the sum   
  }
  println!("The sum of all numbers is {}",sum);
  }
