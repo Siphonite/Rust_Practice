@@ -1,0 +1,1 @@
+This is a project made along side with the program in the Rust Book for having a better understanding of the concepts. 
