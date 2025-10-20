@@ -9,3 +9,4 @@ fn main() {
         _ => println!("The character is a consonant."),
     }
 }   
+
