@@ -1,0 +1,9 @@
+[package]
+name = "exer3"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+my_mini_grep = { path = "C:/Users/HP/OneDrive/Desktop/Rust_Practice/my_mini_grep" }
+[dev-dependencies]
+tempfile = "3.5.0"
