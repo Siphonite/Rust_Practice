@@ -1,6 +1,6 @@
 // Write a function largest<T>(list: &[T]) -> &T that returns the largest element from a list of integers. Then modify it to work with a list of characters as well. 
-
-fn largest<T: PartialOrd>(list: &[T]) -> &T {
+ 
+fn largest<T: PartialOrd>(list: &[T]) -> &T {  // Added PartialOrd trait bound for comparison
     let mut largest = &list[0];
     for item in list.iter() {
         if item > largest {
